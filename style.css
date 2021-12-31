@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    height: 121px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header li {
+    padding: 13px;
+    font-family: 'PT Sans', sans-serif;
+    color: #888888;
+}
+header li:nth-child(1){
+    background-color: #42B3E5;
+    color: white;
+}
+header li:nth-child(7):hover{
+    background-color: #42B3E5;
+    color: white;
+}
+
